@@ -18,6 +18,7 @@
     fputs($ar, "\n");
     fputs($ar, $_REQUEST['comentarios']);
     fputs($ar, "\n");
+    fputs($ar, "\n");
     fputs($ar, "--------------------------------------------------------");
     fputs($ar, "\n");
     fclose($ar);
