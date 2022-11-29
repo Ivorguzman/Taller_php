@@ -16,7 +16,7 @@
         die("No se pudo abrir el archivo");
     while (!feof($ar)) {
         $linea = fgets($ar); // $linea contiene una línea completa del archivo de texto, inclusive el salto de línea (\n)
-        $lineasalto = nl2br($linea); // convertir (\n) caracter,  al elemento <br>del html
+        $lineasalto = nl2br($linea); // convertir (\n) caracter,  al elemento <br> del html
         echo $lineasalto;
     }
     fclose($ar)
